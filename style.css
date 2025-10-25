@@ -1,0 +1,109 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+/*  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(32, 32, 32, 1) 100%); */
+  background-color: #000000;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  background-size: auto;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.carousel-container {
+  width: 40%;
+  margin-left: 4%;
+}
+
+.carousel {
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carousel-item {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  width: 30%;
+  height: 34%;
+  top: 50%;
+  left: 4%;
+  padding: 4rem 2rem 2rem;
+  border: 1px solid #FFF;
+  border-radius: 1rem;
+}
+
+.carousel-item.active {
+  opacity: 1;
+}
+
+
+.carousel-item img {
+  object-fit: cover; /* cover the container */
+  width: 100%;
+}
+
+.carousel-text {
+  position: absolute;
+  top: 20px;       /* adjust vertical position */
+  left: 20px;      /* adjust horizontal position */
+  color: #FFC107;  /* warm yellow header color */
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 36px;
+}
+
+.menu-board {
+  width: 60%;
+  margin-right: 4%;
+}
+
+.two-column {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.three-column {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.category {
+  overflow: hidden;
+}
+
+.category h2 {
+  color: #FFC107;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 1px;
+  font-size: 46px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 8px 12px;
+  font-weight: 600;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  color: #F5F5F5;
+  padding: 0 12px;
+  font-size: 24px;
+}
+
+.item:nth-child(2) {
+  padding-top: 5px;
+}
+
+.item:last-child {
+  padding-bottom: 5px;
+  border-bottom: none;
+}
+
+.price {
+}
