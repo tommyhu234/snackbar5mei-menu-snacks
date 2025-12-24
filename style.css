@@ -4,7 +4,6 @@ body {
   background-size: auto;
   display: flex;
   justify-content: end;
-  align-items: center;
   height: 100vh;
   overflow-x: hidden;
 }
@@ -55,6 +54,7 @@ body {
   width: 100%;
   margin-left: 4%;
   margin-right: 4%;
+  margin-top: 10%;
 }
 
 .two-column {
