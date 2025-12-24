@@ -54,7 +54,7 @@ body {
   width: 100%;
   margin-left: 4%;
   margin-right: 4%;
-  margin-top: 10%;
+  margin-top: 6%;
 }
 
 .two-column {
@@ -91,7 +91,7 @@ body {
   justify-content: space-between;
   color: #F5F5F5;
   padding: 0 12px;
-  font-size: 24px;
+  font-size: 32px;
 }
 
 .item:nth-child(2) {
