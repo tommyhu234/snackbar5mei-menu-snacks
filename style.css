@@ -57,6 +57,12 @@ body {
   margin-top: 6%;
 }
 
+.two-column-main {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 20px;
+}
+
 .two-column {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -64,6 +70,7 @@ body {
 }
 
 .three-column {
+  width: 75%;
   margin-top: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -131,3 +138,12 @@ body {
   background: linear-gradient(to top, black 60%, rgba(255, 248, 240, 0) 100%);
 }
 
+.food-image {
+  position: absolute;
+  left: 75%;
+  top: 65%;
+
+  img {
+    width: 85%;
+  }
+}
