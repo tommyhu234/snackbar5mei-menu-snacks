@@ -70,7 +70,7 @@ body {
 }
 
 .three-column {
-  width: 75%;
+  width: 80%;
   margin-top: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -140,10 +140,10 @@ body {
 
 .food-image {
   position: absolute;
-  left: 75%;
+  left: 80%;
   top: 65%;
 
   img {
-    width: 85%;
+    width: 90%;
   }
 }
